@@ -1,73 +1,81 @@
 # 🎬 IMDb TV Show Reviews – Data Visualization Project
 
-This project focuses on exploring and visualizing user-generated reviews from IMDb to uncover trends in ratings and sentiments through data visualization. With over **8,000** TV show reviews, it provides valuable insights into how viewers respond to different shows using interactive charts and text analysis.
+A simple and delightful analysis of 8,319 IMDb TV show reviews using Python and data visualization tools.  
+This project explores audience opinions through review ratings and text patterns.
 
 ---
 
 ## 📁 Dataset
 
-- **Source:** [Kaggle – IMDb TV Show Reviews](https://www.kaggle.com/datasets/vinayaks0n1/imdb-tv-show-reviews/data)
-- **Total Reviews:** 8,319
-- **Fields Included:**
+- **Source**: [Kaggle - IMDb TV Show Reviews](https://www.kaggle.com/datasets/vinayaks0n1/imdb-tv-show-reviews/data)
+- **Attributes**:
   - `Rating (out of 10)`
-  - `Review` (text content)
+  - `Review`
   - `Show ID`
   - `Review ID`
 
 ---
 
-## 🔧 Tools & Technologies
+## 🧹 Data Cleaning
 
-- **Python**
-- **Pandas** – for data cleaning and manipulation  
-- **Plotly** – for interactive visualizations  
-- **WordCloud** – for generating frequent word plots  
-- **Jupyter Notebook** – development environment  
+- Removed HTML tags and special characters  
+- Converted all text to lowercase  
+- Retained relevant columns: `Rating`, `Review`, etc.
 
 ---
 
-## 🧹 Data Cleaning
+## 🛠️ Tools Used
 
-- Removed HTML tags and special characters from text  
-- Converted reviews to lowercase  
-- Checked for null values and duplicates  
+- Python (Pandas, Plotly, WordCloud)
+- Jupyter Notebook
+- GitHub
+- PowerPoint (for poster creation)
 
 ---
 
 ## 📊 Visual Insights
 
 ### ⭐ Rating Distribution
-Most users rated shows **9 or 10**, indicating a positive overall sentiment toward the TV series in this dataset.
+Most reviews rate shows **9 or 10**, indicating a highly favorable audience response.
 
-![Rating Distribution](Screenshots/ratings_hist.png)
+![Rating Distribution](https://github.com/Tabassumfathima583/IMDB-TV-Show-Reviews/blob/main/Screenshots/Rating%20Distribution.png?raw=true)
 
 ---
 
 ### 📝 Word Cloud
-The most frequent words in reviews include *show*, *season*, *character*, and *story*, reflecting strong viewer engagement with content and plot.
+Common words like *show*, *season*, *story*, and *character* suggest strong viewer engagement.
 
-![Word Cloud](Screenshots/wordcloud.png)
-
----
-
-### 📈 Top Keywords
-Words like *great*, *amazing*, *watch*, and *love* dominate, aligning with high ratings and positive tone in the reviews.
-
-![Top Words](Screenshots/top_words_bar.png)
+![Word Cloud](https://github.com/Tabassumfathima583/IMDB-TV-Show-Reviews/blob/main/Screenshots/Word%20Cloud.png?raw=true)
 
 ---
 
-## 🖼️ Poster Preview
+### 🔤 Most Frequent Words in Reviews
+Words like *great*, *love*, *amazing*, and *watch* dominate, reflecting positive tone.
 
-Here's a one-slide poster summarizing the entire project:
-
-![Poster](Screenshots/poster.png)
+![Most Frequent Words](https://github.com/Tabassumfathima583/IMDB-TV-Show-Reviews/blob/main/Screenshots/Most%20Frequent%20Words%20in%20Reviews.png?raw=true)
 
 ---
 
-## ✅ Conclusion
+### 🔠 Top 20 Most Common Words in Reviews
+This bar chart shows the most repeated words, highlighting *show*, *season*, *character*, and *story*.
 
-The project shows a clear trend of **positive viewer sentiment** in IMDb TV show reviews. Ratings skew heavily toward the higher end, and common words reflect appreciation for storylines, characters, and overall quality. Visualizations help present these patterns in a clean, insightful manner.
+![Top 20 Words](https://github.com/Tabassumfathima583/IMDB-TV-Show-Reviews/blob/main/Screenshots/Top%2020%20Most%20Common%20Words%20in%20Reviews.png?raw=true)
+
+---
+
+## 🖼️ Project Poster
+
+A single-slide summary of the project for presentation purposes:
+
+![Project Poster](https://github.com/Tabassumfathima583/IMDB-TV-Show-Reviews/blob/main/poster.png?raw=true)
+
+---
+
+## 🧠 Conclusion
+
+- Most users rate shows 9 or above, reflecting strong satisfaction.
+- Reviews are rich in emotion and storytelling terms.
+- Common keywords revolve around characters and plot, hinting at what drives viewer interest.
 
 ---
 
@@ -77,8 +85,4 @@ The project shows a clear trend of **positive viewer sentiment** in IMDb TV show
 
 ---
 
-## 📌 How to Run
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/Tabassumfathima583/IMDB-TV-Show-Reviews.git
+> 💡 Feel free to fork, star ⭐, or contribute to the repo!
