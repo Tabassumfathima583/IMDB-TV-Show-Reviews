@@ -1,0 +1,6 @@
+pandas
+plotly
+wordcloud
+scikit-learn
+imbalanced-learn
+notebook
